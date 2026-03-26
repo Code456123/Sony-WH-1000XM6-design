@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import Scrollytelling from "@/components/Scrollytelling";
+import TopVideoPromo from "@/components/TopVideoPromo";
 import UniqueExperience from "@/components/UniqueExperience";
 import FeaturesExtended from "@/components/FeaturesExtended";
 
@@ -12,6 +13,9 @@ export default function Home() {
         It plays the immersive headphone product sequence as user scrolls down.
       */}
       <Scrollytelling />
+
+      {/* Moved from bottom to immediately after 3D sequence */}
+      <TopVideoPromo />
 
       {/* Unique Awwwards style horizontal gallery and parallax video mask */}
       <UniqueExperience />
