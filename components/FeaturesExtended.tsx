@@ -136,64 +136,6 @@ export default function FeaturesExtended() {
         </div>
       </section>
 
-      {/* NEW Section 4: Dual Details Grids (sony5, sony6) */}
-      <section className="py-32 px-6 overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-20">
-            <motion.h2 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="text-4xl lg:text-6xl font-bold text-white tracking-tight"
-            >
-              Exquisite design.
-            </motion.h2>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.8 }}
-              className="relative h-[400px] md:h-[600px] rounded-[2rem] overflow-hidden group shadow-2xl bg-[#0a0a0c]"
-            >
-              <Image 
-                src="/images/sony5.jpg" 
-                alt="Sony Detail 1" 
-                fill 
-                className="object-cover group-hover:scale-105 transition-transform duration-1000 opacity-70 group-hover:opacity-100 mix-blend-screen"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-10 left-10 right-10">
-                <h4 className="text-3xl font-bold text-white mb-3 tracking-tight">Cloud-soft fit</h4>
-                <p className="text-white/60 font-medium text-lg leading-relaxed">Newly developed synthetic leather for a completely frictionless and pressure-free experience.</p>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 60 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.8, delay: 0.1 }}
-              className="relative h-[400px] md:h-[600px] rounded-[2rem] overflow-hidden group shadow-2xl bg-[#0a0a0c]"
-            >
-              <Image 
-                src="/images/sony6.jpg" 
-                alt="Sony Detail 2" 
-                fill 
-                className="object-cover group-hover:scale-105 transition-transform duration-1000 opacity-70 group-hover:opacity-100 mix-blend-screen"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-10 left-10 right-10">
-                <h4 className="text-3xl font-bold text-white mb-3 tracking-tight">Refined acoustics</h4>
-                <p className="text-white/60 font-medium text-lg leading-relaxed">A rigid carbon-fiber dome improves high-frequency clarity exponentially for true studio sound.</p>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
       {/* NEW Section 5: The Final Video Push (promo2) */}
       <section className="relative w-full h-[80vh] overflow-hidden flex items-center justify-center -mb-px">
         <video 
