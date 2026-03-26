@@ -1,0 +1,52 @@
+﻿
+> sony-landing-page@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+node.exe : Failed 
+to compile.
+At line:1 char:1
++ & "C:\Program File
+s\nodejs/node.exe" 
+"C:\Program Files\no
+dejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: (Fail   
+ ed to compile.:    
+String) [], Rem    
+oteException
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+
+./app/page.tsx
+Module not found: 
+Can't resolve 
+'@/components/Nav'
+
+https://nextjs.org/d
+ocs/messages/module-
+not-found
+
+./app/page.tsx
+Module not found: 
+Can't resolve '@/com
+ponents/Scrollytelli
+ng'
+
+https://nextjs.org/d
+ocs/messages/module-
+not-found
+
+
+> Build failed 
+because of webpack 
+errors
