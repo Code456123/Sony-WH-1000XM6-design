@@ -25,7 +25,7 @@ export default function FeaturesExtended() {
                 <span className="text-white/40">Charge in minutes.</span>
               </h3>
               <p className="text-lg md:text-xl text-white/50 mb-10 max-w-md leading-relaxed font-medium">
-                With a massive 30 hours of battery life, you'll have enough power even for long trips. Need to top up in a hurry? Get 3 hours' worth of charge after just 3 minutes.
+                With a massive 30 hours of battery life, you&apos;ll have enough power even for long trips. Need to top up in a hurry? Get 3 hours&apos; worth of charge after just 3 minutes.
               </p>
               <ul className="space-y-5 text-white/70 font-medium text-lg">
                 <li className="flex items-center gap-4">

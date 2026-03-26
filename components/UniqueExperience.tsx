@@ -38,7 +38,7 @@ export default function UniqueExperience() {
           transition={{ duration: 1 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white via-white/80 to-accent-blue/50 tracking-tighter"
         >
-          An artist's masterpiece.
+          An artist&apos;s masterpiece.
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0 }}
